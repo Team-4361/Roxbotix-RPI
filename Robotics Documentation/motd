@@ -1,0 +1,11 @@
+
+# This RPI is property of FRC team 4361, aka Roxbotix. If found, please contact
+# our team advisor at mtayler@roxbury.org, or another contact listed on the
+# about page at www.roxbotix.org.
+#
+# To use the desktop environment, type "startx" (without the quotes)
+# and wait for the desktop to load.
+#
+# PLEASE DO NOT RUN STARTX WHILE USING SSH, IT WILL BREAK THINGS AND REQUIRE
+# A SYSTEM REBOOT.
+

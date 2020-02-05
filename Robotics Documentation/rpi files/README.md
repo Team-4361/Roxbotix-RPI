@@ -15,6 +15,7 @@ Files in this directory are meant to be used with our RPIs.
 	for more on how to setup port forwarding.)
 	- Off the robot - 10.43.61.22 port 22
 	
-	To install the script, use the command "sudo cp /LOCATION_OF_SCRIPT/SCRIPT_NAME /etc/NetworkManager/dispatcher.d/99-wlan"
+	To install the script, use the command "sudo chmod +x /LOCATION_OF_SCRIPT/SCRIPT_NAME" to make it executable, then,
+	"sudo cp /LOCATION_OF_SCRIPT/SCRIPT_NAME /etc/NetworkManager/dispatcher.d/99-wlan".
 	WARNING - If you are using an image that by default boots in read-only, use '99-wlan-vis' as it automatically remounts in
 	read/write to change the wifi state and returns back to read-only after the script is finished.

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ "$1" = "eth0" ]; then
+	case "$2" in
+		up)
+			sudo mount -o rw,remount /
+			nmcli radio wifi off
+			;;
+		down)
+			sudo mount -o rw,remount /
+			nmcli radio wifi on
+			;;
+	esac
+fi
+sudo mount -o  ro,remount /

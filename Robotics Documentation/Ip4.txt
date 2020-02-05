@@ -1,3 +1,0 @@
-ip4
-Ip Adress: 10.43.61.2
-Subnet Mask: 255.0.0.0

@@ -21,7 +21,8 @@ Files in this directory are meant to be used with our RPIs.
 	automatically remounts in read/write to change the wifi state and returns back to read-only after the script is finished.
 	
 	Note - The access point must be setup seperately; the AP will already be setup if the image being used is our preconfigured
-	FRCVision image. If not, [this is a walkthrough](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) on how to get the AP installed and running.
+	FRCVision image. If not, [refer to the "Setting up a Raspberry Pi as an access point
+	in a standalone network (NAT)" section of this tutorial](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) on how to get the AP installed and running.
 
 - Connecting to the RPI with ssh:
 	- Download and run the PuTTY.exe executable from the rpi files directory (use command "sudo apt-get install putty

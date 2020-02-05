@@ -10,5 +10,7 @@ Files in this directory are meant to be used with our RPIs.
 	the RPI to be connected to any network. This is done by creating a wifi access point that the user may connect to,
 	allowing them to configure the system via ssh and access the gui; all at the same IPv4 address. At the time that this was
 	written, the intended IPs for ssh are:
-	- Connected to robot - 10.43.61.22 port 2222
+	- Connected to robot - 10.43.61.22 port 22 (To use ssh while connected to the roboRIO over USB, you need to have a port
+	forwarding rule in the robots code to push port 2222 to port 22. Refer to the [FRC documentation](https://docs.wpilib.org/en/latest/docs/networking/networking-utilities/portforwarding.html)
+	for more on how to setup port forwarding.)
 	- Off the robot - 10.43.61.22 port 22

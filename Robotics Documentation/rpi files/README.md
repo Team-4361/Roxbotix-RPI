@@ -1,7 +1,7 @@
 Files in this directory are meant to be used with our RPIs.
 
 - Motd files should be dropped in /etc and renamed to "motd" or the corresponding directory depending on operating system
-  This can be done with the command "sudo cp /LOCATION_OF_MOTD/MOTD_NAME /etc/motd" on *nix-based systems 
+  This can be done with the command "sudo cp /LOCATION_OF_MOTD/MOTD_NAME /etc/motd" on *nix-like systems 
   (ex: Raspbian or the FRCVision fork).
 	
 - For RPIs used on the robot or for active testing, there is a script to automatically toggle wifi on images with

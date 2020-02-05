@@ -6,4 +6,7 @@
 # This system by default boots in read-only to prevent data loss in
 # the event of an unexpected/unprepared shutdown. To mount the file system
 # in read/write, use "sudo mount -o rw,remount /" without the quotes.
-
+# You may also use the web-based GUI to change between read-only and read/write,
+# (You may need to click each setting more than once if you have already remounted
+# via command-line as the site does not automatically update depending on the
+# current file system state.)

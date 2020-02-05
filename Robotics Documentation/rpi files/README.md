@@ -24,7 +24,7 @@ Files in this directory are meant to be used with our RPIs.
 	FRCVision image. If not, [this is a walkthrough](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) on how to get the AP installed and running.
 
 - Connecting to the RPI with ssh:
-	- Download the PuTTY.exe executable from the rpi files directory
+	- Download and run the PuTTY.exe executable from the rpi files directory
 	- Enter **"10.43.61.22"** into the hostname field
 	- Enter **"22"** in the port field if not already there
 	- Click **"Ok"** in the bottom right or press the **enter key**

@@ -1,7 +1,7 @@
 Files in this directory are meant to be used with our RPIs.
 
 - Motd files should be dropped in /etc and renamed to "motd" or the corresponding directory depending on operating system
-  This can be done with the command "sudo cp /LOCATION_OF_MOTD/MOTD_NAME /etc/motd" on *nix-like systems 
+  This can be done with the command "sudo cp /LOCATION_OF_MOTD/MOTD_NAME /etc/motd" on linux systems 
   (ex: Raspbian or the FRCVision fork).
 	
 - For RPIs used on the robot or for active testing, there is a script to automatically toggle wifi on images with
@@ -24,7 +24,8 @@ Files in this directory are meant to be used with our RPIs.
 	FRCVision image. If not, [this is a walkthrough](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) on how to get the AP installed and running.
 
 - Connecting to the RPI with ssh:
-	- Download and run the PuTTY.exe executable from the rpi files directory
+	- Download and run the PuTTY.exe executable from the rpi files directory (use command "sudo apt-get install putty
+	  putty-tools" on linux)
 	- Enter **"10.43.61.22"** into the hostname field
 	- Enter **"22"** in the port field if not already there
 	- Click **"Ok"** in the bottom right or press the **enter key**

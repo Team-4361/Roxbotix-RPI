@@ -24,7 +24,7 @@ Files in this directory are meant to be used with our RPIs.
 	FRCVision image. If not, [refer to the "Setting up a Raspberry Pi as an access point
 	in a standalone network (NAT)" section of this tutorial](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) on how to get the AP installed and running.
 
-- Connecting to the RPI with ssh:
+- Connecting to the RPI with ssh: (non-FRCVision images will most likely be different from the static IP below and those listed above)
 	- Download and run the PuTTY.exe executable from the rpi files directory (use command "sudo apt-get install putty
 	  putty-tools" on linux)
 	- Enter **"10.43.61.22"** into the hostname field

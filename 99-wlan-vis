@@ -5,12 +5,16 @@ if [ "$1" = "eth0" ]; then
 		up)
 			sudo mount -o rw,remount /
 			#nmcli radio wifi off
-			rfkill block wlan
+			ifconfig wlan0 down
+			sudo systemctl stop hostapd
+			sudo systemctl stop dnsmasq
 			;;
 		down)
 			sudo mount -o rw,remount /
 			#nmcli radio wifi on
-			rfkill unblock wlan
+			ifconfig wlan0 up
+			sudo systemctl start hostapd
+			sudo systemctl start dnsmasq			
 			;;
 	esac
 fi

@@ -4,15 +4,15 @@ if [ "$1" = "eth0" ]; then
 	case "$2" in
 		up)
 			sudo mount -o rw,remount /
-			#nmcli radio wifi off
-			ifconfig wlan0 down
+			#sudo nmcli radio wifi off
+			sudo ifconfig wlan0 down
 			sudo systemctl stop hostapd
 			sudo systemctl stop dnsmasq
 			;;
 		down)
 			sudo mount -o rw,remount /
-			#nmcli radio wifi on
-			ifconfig wlan0 up
+			#sudo nmcli radio wifi on
+			sudo ifconfig wlan0 up
 			sudo systemctl start hostapd
 			sudo systemctl start dnsmasq			
 			;;

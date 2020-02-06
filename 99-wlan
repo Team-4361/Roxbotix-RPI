@@ -3,12 +3,12 @@
 if [ "$1" = "eth0" ]; then
 	case "$2" in
 		up)
-			#nmcli radio wifi off
-			rfkill block wlan
+			#sudo nmcli radio wifi off
+			sudo ifconfig wlan0 down
 			;;
 		down)
-			#nmcli radio wifi on
-			rfkill unblock wlan
+			#sudo nmcli radio wifi on
+			sudo ifconfig wlan0 up
 			;;
 	esac
 fi

@@ -1,4 +1,4 @@
-***Lines with strikethrough will be changed rather soon and configs with those scripts will be changed.***
+***Lines with ~~strikethrough~~ will be changed rather soon and configs with those scripts will be changed.***
 
 Images in releases are not final and should not be assumed complete.
 

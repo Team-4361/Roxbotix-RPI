@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/bin/bash
 # If eth0 goes down, enable wireless
 if [ "$IFACE" = "eth0" ]; then
-  dbus-send --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.DBus.Properties.Set string:org.freedesktop.NetworkManager string:WirelessEnabled variant:boolean:true
+  ifconfig wlan0 up
 fi

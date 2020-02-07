@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # If eth0 goes down, enable wireless
 if [ "$IFACE" = "eth0" ]; then
   ifconfig wlan0 up
